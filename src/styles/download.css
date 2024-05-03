@@ -1,0 +1,74 @@
+.download-section {
+    background-image: url("/src/images/banners/bg02.png");
+    background-color: gray;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    padding: 10rem 0;
+  }
+  
+  @media (max-width: 700px) {
+    .download-section {
+      background-image: none;
+    }
+  }
+  
+  .download-text {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    max-width: 55rem;
+    text-align: left;
+  }
+  
+  @media (max-width: 700px) {
+    .download-text {
+      text-align: center;
+      margin: 0 auto;
+    }
+  }
+  
+  .download-text h2 {
+    font-size: 18px;
+    color: black;
+  }
+  
+  .download-text p {
+    font-size: 14px;
+    color: gray;
+    font-family: font;
+    line-height: 1.5;
+  }
+  
+  .download-text__btns {
+    display: flex;
+    gap: 3rem;
+    margin-top: 2rem;
+  }
+  
+  @media (max-width: 700px) {
+    .download-text__btns {
+      justify-content: center;
+    }
+  }
+  
+  @media (max-width: 550px) {
+    .download-text__btns {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
+  .download-text__btns img {
+    width: 40%;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 550px) {
+    .download-text__btns img {
+      width: 22rem;
+    }
+  }
+  

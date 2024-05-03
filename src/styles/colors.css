@@ -1,0 +1,26 @@
+/* Background colors */
+.bg-gray {
+    background-color: #f8f8f8;
+  }
+  
+  .bg-white {
+    background-color: #ffffff;
+  }
+  
+  /* Text colors */
+  .text-black {
+    color: #010103;
+  }
+  
+  .text-orange {
+    color: #ff4d30;
+  }
+  
+  .btn-black {
+    color: #161616;
+  }
+  
+  .text-gray {
+    color: #706f7b;
+  }
+  
